@@ -1,0 +1,5 @@
+# docs: https://pnpm.io/pnpm-workspace_yaml
+
+updateConfig:
+  ignoreDependencies:
+    - typescript # "typescript:7" breaks "typescript-eslint"
