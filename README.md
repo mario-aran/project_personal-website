@@ -2,6 +2,36 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
+---
+
+## Commands
+
+Prepare
+
+- `npm run clean`: Delete installed files
+- `pnpm install`: Install dependencies
+- `pnpm approve-builds`: Approve post-install scripts
+- `pnpm up --latest --interactive`: Update dependencies
+
+Format
+
+- `pnpm run format`: Run prettier
+- `pnpm run lint`: Run eslint
+- `pnpm run typecheck`: Run type checker
+
+Development
+
+- `pnpm run dev`: Run client in development
+- `pnpm run build`: Build app
+
+## Dependencies
+
+- "prettier"
+
+---
+
+## Vite
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
